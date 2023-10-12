@@ -1,0 +1,32 @@
+/* 
+----------------
+Global Variables
+----------------
+*/
+button{
+    border: none;
+}
+li{
+    list-style: none;
+}
+
+.home{
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(./images/heero-image.jfif);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.brand-icn{
+    height: 3.5rem;
+    color: white;
+}
+
+
+@media (min-width: 848px) {
+    .try{
+        width: 405px;
+    }
+    .head{
+        width: 807px;
+    }
+}
